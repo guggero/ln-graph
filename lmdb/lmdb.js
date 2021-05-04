@@ -6,7 +6,7 @@ const {Env} = require('node-lmdb');
 const dbs = {};
 let env;
 const maxDbs = 10;
-const mapSize = 1024 * 1024 * 1024 * 10;
+const mapSize = 1024 * 1024 * 1024 * 50;
 
 /** Get lmdb connection
 
